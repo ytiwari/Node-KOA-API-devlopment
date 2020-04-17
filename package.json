@@ -1,0 +1,29 @@
+{
+  "name": "Node-KOA-API-devlopment",
+  "version": "1.0.0",
+  "description": "API development using Koa.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon sever.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ytiwari/Node-KOA-API-devlopment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ytiwari/Node-KOA-API-devlopment/issues"
+  },
+  "homepage": "https://github.com/ytiwari/Node-KOA-API-devlopment#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-parser": "^1.0.8",
+    "koa-router": "^8.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
